@@ -11,7 +11,7 @@ export class NgxDymoService {
   }
 
   async init() {
-    const prom = await new Promise(async(res, rej) => {
+    const prom = new Promise(async(res, rej) => {
       
       await dymo.label.framework.init(() => {
         this.isInitialed = true
