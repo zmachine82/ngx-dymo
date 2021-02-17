@@ -3,5 +3,48 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-  }
+    "ngx-dymo": {
+      "projectType": "library",
+      "root": "projects/ngx-dymo",
+      "sourceRoot": "projects/ngx-dymo/src",
+      "prefix": "lib",
+      "architect": {
+        "build": {
+          "builder": "@angular-devkit/build-angular:ng-packagr",
+          "options": {
+            "tsConfig": "projects/ngx-dymo/tsconfig.lib.json",
+            "project": "projects/ngx-dymo/ng-package.json"
+          },
+          "configurations": {
+            "production": {
+              "tsConfig": "projects/ngx-dymo/tsconfig.lib.prod.json"
+            }
+          }
+        },
+        "test": {
+          "builder": "@angular-devkit/build-angular:karma",
+          "options": {
+            "main": "projects/ngx-dymo/src/test.ts",
+            "tsConfig": "projects/ngx-dymo/tsconfig.spec.json",
+            "karmaConfig": "projects/ngx-dymo/karma.conf.js"
+          }
+        },
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": [
+              "projects/ngx-dymo/tsconfig.lib.json",
+              "projects/ngx-dymo/tsconfig.spec.json"
+            ],
+            "exclude": [
+              "**/node_modules/**"
+            ]
+          }
+        }
+      }
+    }},
+  "cli": {
+    "analytics": false
+  },
+  "defaultProject": "ngx-dymo"
 }

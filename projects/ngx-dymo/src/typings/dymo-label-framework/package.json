@@ -1,0 +1,50 @@
+{
+  "_from": "dymo-label-framework",
+  "_id": "dymo-label-framework@1.2.29",
+  "_inBundle": false,
+  "_integrity": "sha1-Bp1de04wJWV/jq6TwA+iihEF8N8=",
+  "_location": "src/typings/dymo-label-framework",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "dymo-label-framework",
+    "name": "dymo-label-framework",
+    "escapedName": "dymo-label-framework",
+    "scope": "@types",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "http://registry.npmjs.org/@types/dymo-label-framework/-/dymo-label-framework-1.2.29.tgz",
+  "_shasum": "069d5d7b4e3025657f8eae93c00fa28a1105f0df",
+  "_spec": "dymo-label-framework",
+  "_where": "C:\\Sites\\dymo2",
+  "author": {
+    "name": "Thijs Kuipers",
+    "email": "https://github.com/thijskuipers"
+  },
+  "bugs": {
+    "url": "https://github.com/DefinitelyTyped/DefinitelyTyped/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {},
+  "deprecated": false,
+  "description": "TypeScript definitions for DYMO Label Framework v1.2.6",
+  "homepage": "https://github.com/DefinitelyTyped/DefinitelyTyped#readme",
+  "license": "MIT",
+  "main": "",
+  "name": "dymo-label-framework",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DefinitelyTyped/DefinitelyTyped.git"
+  },
+  "scripts": {},
+  "typesPublisherContentHash": "d6d14049d19cf623e0c9c85eebea8957e47246a94e49ec2ac5bc23cf1bf81ba0",
+  "typings": "index.d.ts",
+  "version": "1.2.29"
+}

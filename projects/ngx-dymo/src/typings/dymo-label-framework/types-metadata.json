@@ -1,0 +1,23 @@
+{
+    "authors": "Thijs Kuipers <https://github.com/thijskuipers>",
+    "definitionFilename": "index.d.ts",
+    "libraryDependencies": [],
+    "moduleDependencies": [],
+    "libraryMajorVersion": "1",
+    "libraryMinorVersion": "2",
+    "libraryName": "DYMO Label Framework v1.2.6",
+    "typingsPackageName": "dymo-label-framework",
+    "projectName": "http://www.labelwriter.com/software/dls/sdk/docs/DYMOLabelFrameworkJavaScriptHelp/index.html",
+    "sourceRepoURL": "https://www.github.com/DefinitelyTyped/DefinitelyTyped",
+    "sourceBranch": "types-2.0",
+    "kind": "Global",
+    "globals": [
+        "dymo"
+    ],
+    "declaredModules": [],
+    "files": [
+        "index.d.ts"
+    ],
+    "hasPackageJson": false,
+    "contentHash": "d6d14049d19cf623e0c9c85eebea8957e47246a94e49ec2ac5bc23cf1bf81ba0"
+}
